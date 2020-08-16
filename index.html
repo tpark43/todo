@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <body>
+      <div class="todo-container">
+        <div class="background-img"></div>
+        <div class="todo-overlay"></div>
+        <!-- header -->
+        <header class="header">
+          <h1 class="title">Todo App</h1>
+          <form class="todo-form">
+            <input type="search" placeholder="Add todo" />
+            <input type="submit" value="Add" />
+          </form>
+          <!-- <div id="modal-switch">✉</div> -->
+        </header>
+        <div id="clock"></div>
+        <h1>Tasks</h1>
+        <form id="todoForm">
+          <input type="text" id="task" placeholder="Add task" />
+        </form>
+        <h3>Pending</h3>
+        <ul id="pending"></ul>
+        <h3>Finished</h3>
+        <ul id="finished"></ul>
+      </div>
+      <script src="src/js/todo.js" defer></script>
+    </body>
+  </body>
+</html>
